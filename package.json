@@ -1,0 +1,35 @@
+{
+    "name": "aukse-theme",
+    "version": "4.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack --config webpack.dev.js --watch",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "author": "Viktoras Domarkas",
+    "license": "UNLICENSED",
+    "browserslist": "> 0.25%, not dead",
+    "devDependencies": {
+        "@babel/core": "^7.17.8",
+        "@babel/preset-env": "^7.16.11",
+        "autoprefixer": "^10.4.13",
+        "babel-loader": "^8.2.3",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.7.1",
+        "css-minimizer-webpack-plugin": "^3.4.1",
+        "file-loader": "^6.2.0",
+        "mini-css-extract-plugin": "^2.6.0",
+        "postcss": "^8.4.12",
+        "postcss-loader": "^6.2.1",
+        "postcss-preset-env": "^7.8.3",
+        "sass": "^1.49.9",
+        "sass-loader": "^12.6.0",
+        "style-loader": "^3.3.1",
+        "tailwindcss": "^3.3.5",
+        "webpack": "^5.70.0",
+        "webpack-cli": "^4.9.2"
+    },
+    "dependencies": {
+        "@tailwindcss/line-clamp": "^0.4.4"
+    }
+}
